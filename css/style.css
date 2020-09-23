@@ -1,0 +1,29 @@
+/* regole base */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  padding: 0 20%;
+  background-color: green;
+}
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* debug */
+header{
+  background-color: red;
+  height: 200px;
+}
+main{
+  background-color: blue;
+  height:1000px;
+}
+footer{
+  background-color: yellow;
+  height: 200px;
+}
