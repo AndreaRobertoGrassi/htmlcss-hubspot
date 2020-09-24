@@ -24,6 +24,7 @@ footer{
 }
 /* fine debug */
 
+
 /* header */
 
 /* regole header lingua-login */
@@ -99,9 +100,10 @@ footer{
 /* fine header */
 
 /* main */
+/* section service */
 .service{
   text-align: center;
-  background-color: #e6e1e1;
+  background-color: #fdf9f9;
 }
 .service img{
   width: 20%;
@@ -112,10 +114,14 @@ footer{
   width: 70%;
   margin: 20px auto;
 }
+
+/* primo blocco */
 .blocco-orizzontale{
   padding: 3% 6%;
   margin: 40px 0;
-  border: 1px solid black;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0 0 5px grey;
 }
 .left img{
   width: 80%;
@@ -141,9 +147,40 @@ footer{
   margin: 30px 50px 0 0;
   display: inline-block;
 }
-.right i{
-  margin-right: 5px;
+.fas.fa-check-circle{
   color: #ff7a59;
 }
+/* fine primo blocco */
+
+/* secondo blocco */
+.float{
+  float: left;
+  margin: 0 2%;
+  width: calc(100% / 3 - 4%);
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0 0 5px grey;
+}
+.float svg{
+  width: 40%;
+  height: auto;
+  margin: 10px 0;
+}
+.float p{
+  width: 85%;
+  margin: 30px auto;
+  padding-bottom: 40px;
+  border-bottom: 2px solid black;
+}
+.float ul{
+  margin: 20px auto 30px;
+  list-style: none;
+  width: 85%;
+  text-align: left;
+}
+
+
+
+
 
 /* fine main */
