@@ -4,44 +4,78 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   </head>
   <body>
 
-    <div class="container">
-      <!-- intestazione -->
-      <header>
-        <!-- login -->
+    <!-- intestazione -->
+    <header>
+
+      <!-- nav lingua login -->
+      <nav class="container lingua-login clearfix">
+
+        <div class="lingua-contatti">
+          <i class="fas fa-globe-europe"></i>
+          <span>English</span>
+          <span>&VerticalBar;</span>
+          <a href="#">Contatti</a>
+        </div>
+
         <div class="login">
-
+          <span>GetHubspotFree</span>
+          <form action="index.html" method="post">
+            <button type="button" name="button">Login</button>
+          </form>
+          <i class="fas fa-search"></i>
         </div>
 
-        <!-- menu -->
-        <div class="nav">
+      </nav>
 
+
+      <!-- menu nav -->
+      <nav class="container nav clearfix">
+        <a href="#"><img src="img/logo.svg" alt=""></a>
+
+        <ul class="menu">
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Partners</li></a>
+          <a href="#"><li>Resources</li></a>
+          <a href="#"><li>Pricing</li></a>
+          <a href="#"><li>Software</li></a>
+        </ul>
+
+      </nav>
+
+      <!-- homepage -->
+      <section class=" container jumbotron">
+        <h1>There's a better way to grow.</h1>
+        <p class="text-jumbotron">
+          Marketing, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the customer".
+        </p>
+        <div class="gethubspot">
+          GetHubspotFree
         </div>
+        <p class="text-jumbotron">
+          Get started with FREE tools, and upgrade as you grow.
+        </p>
+      </section>
+    </header>
 
-        <!-- homepage -->
-        <section class="jumbotron">
+    <!-- parte principale -->
+    <main>
+      <section class="service">
 
-        </section>
-      </header>
+      </section>
+      <section class="number">
 
-      <!-- parte principale -->
-      <main>
-        <section class="service">
+      </section>
+      <section class="customer">
 
-        </section>
-        <section class="number">
+      </section>
+    </main>
 
-        </section>
-        <section class="customer">
-
-        </section>
-      </main>
-
-      <!-- footer -->
-      <footer></footer>
-    </div>
+    <!-- footer -->
+    <footer></footer>
 
   </body>
 </html>

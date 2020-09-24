@@ -4,21 +4,19 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container{
-  padding: 0 20%;
-  background-color: green;
+body{
+  font-family: sans-serif;
 }
-.clearfix{
+.container{
+  padding: 0 10%;
+}
+.clearfix::after{
   content: '';
   display: table;
   clear: both;
 }
 
 /* debug */
-header{
-  background-color: red;
-  height: 200px;
-}
 main{
   background-color: blue;
   height:1000px;
@@ -27,3 +25,78 @@ footer{
   background-color: yellow;
   height: 200px;
 }
+/* fine debug */
+
+/* header */
+
+/* regole header lingua-login */
+.lingua-login{
+  background-color: lightgrey;
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+.lingua-contatti *{
+  float: left;
+  margin-right: 10px;
+  line-height: 50px;
+}
+.login *{
+  float:right;
+  margin: 0 10px;
+  /* line-height: 50px; */
+}
+.login span{
+  margin-right: 0;
+}
+
+/* regole header menu-nav */
+.nav{
+  background-color: white;
+  height: 50px;
+}
+.nav img{
+  float:left;
+  height: auto;
+  margin: 10px 0;
+}
+.nav li{
+  float: right;
+  display: inline-block;
+  margin: 0 15px;
+  line-height: 50px;
+}
+.nav li:first-child{
+  margin-right: 0;
+}
+
+/* regole header jumbotron */
+.jumbotron{
+  background-image: url('../img/jumbotron.png');
+  width: 100%;
+  height:700px;
+  background-size: cover;
+  background-position: bottom;
+}
+.jumbotron h1{
+  font-size: 40px;
+  color:#3a3a71;
+  padding-top: 50px;
+  width: 38%;
+}
+.text-jumbotron{
+  color:#3a3a71;
+  margin-top: 30px;
+  width: 45%;
+}
+.gethubspot{
+  display: inline-block;
+  margin-top: 30px;
+  /* height: 50px;
+  width: 100px; */
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  background-color: #ff7a59;
+  border-radius: 5px;
+}
+/* fine header */
