@@ -6,9 +6,10 @@
 }
 body{
   font-family: sans-serif;
+  color:#3a3a71;
 }
 .container{
-  padding: 0 10%;
+  padding: 0 15%;
 }
 .clearfix::after{
   content: '';
@@ -17,10 +18,6 @@ body{
 }
 
 /* debug */
-main{
-  background-color: blue;
-  height:1000px;
-}
 footer{
   background-color: yellow;
   height: 200px;
@@ -76,6 +73,7 @@ footer{
   height:700px;
   background-size: cover;
   background-position: bottom;
+  float: left;
 }
 .jumbotron h1{
   font-size: 40px;
@@ -84,11 +82,10 @@ footer{
   width: 38%;
 }
 .text-jumbotron{
-  color:#3a3a71;
   margin-top: 30px;
   width: 45%;
 }
-.gethubspot{
+.info{
   display: inline-block;
   margin-top: 30px;
   /* height: 50px;
@@ -100,3 +97,53 @@ footer{
   border-radius: 5px;
 }
 /* fine header */
+
+/* main */
+.service{
+  text-align: center;
+  background-color: #e6e1e1;
+}
+.service img{
+  width: 20%;
+  height: auto;
+  margin: 30px 0 10px 0;
+}
+.text-service{
+  width: 70%;
+  margin: 20px auto;
+}
+.blocco-orizzontale{
+  padding: 3% 6%;
+  margin: 40px 0;
+  border: 1px solid black;
+}
+.left img{
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+.left{
+  float: left;
+  margin-right:6%;
+  width: 20%;
+}
+.right{
+  float: left;
+  text-align: left;
+  width: 70%;
+}
+.right p{
+  margin: 30px 0 30px 0;
+}
+
+.right li{
+  margin: 30px 50px 0 0;
+  display: inline-block;
+}
+.right i{
+  margin-right: 5px;
+  color: #ff7a59;
+}
+
+/* fine main */
