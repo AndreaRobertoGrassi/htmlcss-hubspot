@@ -49,6 +49,9 @@ body{
   color: white;
   font-weight: bold;
 }
+.login div:hover{
+  opacity: 0.7;
+}
 .login form{
   display: inline-block;
 }
@@ -120,6 +123,9 @@ body{
   background-color: #ff7a59;
   border-radius: 5px;
 }
+.info:hover{
+  opacity: 0.7;
+}
 /* fine header */
 
 /* main */
@@ -146,6 +152,13 @@ body{
   border: 1px solid grey;
   border-radius: 5px;
   box-shadow: 0 0 5px grey;
+}
+.blocco-orizzontale:hover{
+  -webkit-transform: scale(1.1,1.1);
+  -moz-transform: scale(1.1,1.1);
+  -o-transform: scale(1.1,1.1);
+  -ms-transform: scale(1.1,1.1);
+  transform: scale(1.1,1.1);
 }
 .left img{
   width: 80%;
@@ -179,11 +192,18 @@ body{
 /* secondo blocco */
 .float{
   float: left;
-  margin: 0 2% 30px;
+  margin: 10px 2% 50px;
   width: calc(100% / 3 - 4%);
   border: 1px solid grey;
   border-radius: 5px;
   box-shadow: 0 0 5px grey;
+}
+.float:hover{
+  -webkit-transform: scale(1.1,1.1);
+  -moz-transform: scale(1.1,1.1);
+  -o-transform: scale(1.1,1.1);
+  -ms-transform: scale(1.1,1.1);
+  transform: scale(1.1,1.1);
 }
 .float svg{
   width: 40%;
