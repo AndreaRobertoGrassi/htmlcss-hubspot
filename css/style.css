@@ -115,8 +115,9 @@ footer{
 
 /* primo blocco */
 .blocco-orizzontale{
+  width: 96%;
   padding: 3% 6%;
-  margin: 40px 0;
+  margin: 40px auto;
   border: 1px solid grey;
   border-radius: 5px;
   box-shadow: 0 0 5px grey;
@@ -230,4 +231,71 @@ padding-bottom: 50px;
   font-weight: bold;
   margin-bottom: 20px;
 }
+
+/* section customer */
+/* loghi */
+.loghi{
+  padding: 30px 0;
+}
+.loghi > div{
+  float: left;
+  margin: 0 5%;
+}
+.left-customer{
+  width: 20%;
+}
+.left-customer p{
+  margin:40px 0;
+}
+.left-customer div{
+  font-size: 40px;
+  font-weight: bold;
+}
+.right-customer{
+  width: 60%;
+}
+.right-customer img{
+  float: left;
+  width: calc(100% / 4 - 6%);
+  height: auto;
+  margin:20px 3%;
+}
+#crowd{
+  margin-top: 10px;
+}
+#monkey{
+  margin-top: 0;
+}
+#wistia{
+  margin-top:26px;
+}
+#classpass{
+  margin-top: 11px;
+}
+
+/* growing */
+.growing{
+  padding: 5px 0 30px;
+}
+.growing-left{
+  float: left;
+  width: 35%;
+}
+.growing-left p{
+  margin: 30px 0 5px;
+}
+#short{
+  font-size: 12px;
+}
+.growing-right{
+  float: right;
+  text-align: right;
+}
+#woman{
+  width: 40%;
+  height: auto;
+}
+
 /* fine main */
+
+/* footer */
