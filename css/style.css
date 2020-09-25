@@ -16,7 +16,6 @@ body{
   display: table;
   clear: both;
 }
-
 /* header */
 
 /* regole header lingua-login */
@@ -25,19 +24,38 @@ body{
   height: 50px;
   border-bottom: 1px solid black;
 }
-.lingua-contatti *{
+.lingua-contatti{
   float: left;
   margin-right: 10px;
   line-height: 50px;
 }
-.login *{
+.lingua-contatti a{
+  text-decoration: none;
+  color:#3a3a71;
+}
+.lingua-contatti a:hover{
+  text-decoration: underline;
+}
+.login{
   float:right;
-  margin: 0 10px;
-  /* line-height: 50px; */
+  margin-top: 8px;
 }
-.login span{
-  margin-right: 0;
+.login div{
+  font-size: 15px;
+  padding: 8px 10px;
+  display: inline-block;
+  background-color: #ff7a59;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
 }
+.login form{
+  display: inline-block;
+}
+.login i,button{
+  margin-right: 20px;
+}
+
 
 /* regole header menu-nav */
 .nav{
@@ -54,11 +72,18 @@ body{
   display: inline-block;
   margin: 0 15px;
   line-height: 50px;
+
 }
 .nav li:first-child{
   margin-right: 0;
 }
-
+.menu a{
+  text-decoration: none;
+  color: black;
+}
+.menu a:hover{
+  text-decoration: underline;
+}
 /* regole header jumbotron */
 .jumbotron{
   background-image: url('../img/jumbotron.png');
@@ -293,7 +318,6 @@ padding-bottom: 50px;
 footer{
   background-color: #2d3e50;
   color: #a7a7a7;
-  height: 500px;
 }
 .float-footer{
   float: left;
@@ -321,6 +345,9 @@ footer{
   list-style: none;
   margin: 0 10px;
   display: inline-block;
+}
+.copyright{
+  padding-bottom: 40px;
 }
 .left-copyright{
   float: left;
