@@ -20,7 +20,7 @@ body{
 
 /* regole header lingua-login */
 .lingua-login{
-  background-color: lightgrey;
+  background-color: #f1f1f1;
   height: 50px;
   border-bottom: 1px solid black;
 }
@@ -55,8 +55,16 @@ body{
 .login i,button{
   margin-right: 20px;
 }
-
-
+.login i{
+  color: #42aacc;
+}
+.login button{
+  padding: 5px;
+  background-color: white;
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
 /* regole header menu-nav */
 .nav{
   background-color: white;
