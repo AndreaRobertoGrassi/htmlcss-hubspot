@@ -16,6 +16,11 @@ body{
   display: table;
   clear: both;
 }
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
 /* header */
 
 /* regole header lingua-login */
@@ -40,6 +45,21 @@ body{
   float:right;
   margin-top: 8px;
 }
+.login form{
+  display: inline-block;
+}
+.login i{
+  color: #42aacc;
+  margin-right: 20px;
+}
+.login button{
+  padding: 5px;
+  background-color: white;
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+  margin-right: 20px;
+}
 .login div{
   font-size: 15px;
   padding: 8px 10px;
@@ -51,22 +71,6 @@ body{
 }
 .login div:hover{
   opacity: 0.7;
-}
-.login form{
-  display: inline-block;
-}
-.login i,button{
-  margin-right: 20px;
-}
-.login i{
-  color: #42aacc;
-}
-.login button{
-  padding: 5px;
-  background-color: white;
-  color: orange;
-  border: 1px solid orange;
-  border-radius: 5px;
 }
 /* regole header menu-nav */
 .nav{
@@ -95,7 +99,9 @@ body{
 .menu a:hover{
   text-decoration: underline;
 }
-/* regole header jumbotron */
+
+/* main */
+/* section jumbotron */
 .jumbotron{
   background-image: url('../img/jumbotron.png');
   width: 100%;
@@ -126,9 +132,7 @@ body{
 .info:hover{
   opacity: 0.7;
 }
-/* fine header */
 
-/* main */
 /* section service */
 .service{
   text-align: center;
@@ -152,13 +156,18 @@ body{
   border: 1px solid grey;
   border-radius: 5px;
   box-shadow: 0 0 5px grey;
+  transition: 0.8s ease;
+  -moz-transition: 0.8s ease; /* Firefox */
+  -webkit-transition: 0.8s ease; /* Chrome - Safari */
+  -o-transition: 0.8s ease; /* Opera */
+  -ms-transform : 0.8s ease; /* IE */
 }
 .blocco-orizzontale:hover{
-  -webkit-transform: scale(1.1,1.1);
-  -moz-transform: scale(1.1,1.1);
-  -o-transform: scale(1.1,1.1);
-  -ms-transform: scale(1.1,1.1);
-  transform: scale(1.1,1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .left img{
   width: 80%;
@@ -197,13 +206,18 @@ body{
   border: 1px solid grey;
   border-radius: 5px;
   box-shadow: 0 0 5px grey;
+  transition: 0.8s ease;
+  -moz-transition: 0.8s ease; /* Firefox */
+  -webkit-transition: 0.8s ease; /* Chrome - Safari */
+  -o-transition: 0.8s ease; /* Opera */
+  -ms-transform : 0.8s ease; /* IE */
 }
 .float:hover{
-  -webkit-transform: scale(1.1,1.1);
-  -moz-transform: scale(1.1,1.1);
-  -o-transform: scale(1.1,1.1);
-  -ms-transform: scale(1.1,1.1);
-  transform: scale(1.1,1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .float svg{
   width: 40%;
@@ -333,6 +347,7 @@ padding-bottom: 50px;
   font-size: 12px;
 }
 .growing-right{
+  width: 65%;
   float: right;
   text-align: right;
 }
