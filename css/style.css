@@ -23,6 +23,7 @@ header{
 }
 main{
   padding-top: 100px;
+  color: #3a3a71;
 }
 /* header */
 
@@ -115,7 +116,7 @@ main{
 }
 .jumbotron h1{
   font-size: 40px;
-  color:#3a3a71;
+  /* color:#3a3a71; */
   padding-top: 50px;
   width: 38%;
 }
